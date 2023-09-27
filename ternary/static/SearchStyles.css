@@ -1,7 +1,7 @@
  .container {
-<!--  margin-top: 50px;-->
   width: 50%;
   max-width: 600px;
+  text-align: center
 }
 body {
   display: flex;
@@ -9,11 +9,6 @@ body {
   justify-content: center;
   height: 100vh;
 }
-
-<!--.form-container {-->
-<!--  width: 50%;-->
-<!--  max-width: 600px;-->
-<!--}-->
 
 .form-group label {
   font-weight: bold;
@@ -28,4 +23,22 @@ body {
   .col-md-6 {
     max-width: 400px;
   }
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.result-field {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.col-md-6 {
+  text-align: left;
 }
